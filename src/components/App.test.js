@@ -18,7 +18,6 @@ describe('App', () => {
         beforeEach(() => 
             app.find('.btn-add').simulate('click'));
 
-
         afterEach(() =>
             app.setState({ gifts: [] }));
 
